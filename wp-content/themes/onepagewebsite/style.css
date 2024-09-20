@@ -1,0 +1,52 @@
+/* 
+    Theme Name: One Page Website
+    
+*/
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-menu ul {
+  list-style: none;
+  background: #000;
+  margin: 0;
+}
+
+.main-menu ul:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.main-menu ul li {
+  float: left;
+}
+
+.main-menu ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: block;
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+.content-area {
+  background: #dddd;
+  width: 90%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+article {
+  padding-top: 70px;
+}
