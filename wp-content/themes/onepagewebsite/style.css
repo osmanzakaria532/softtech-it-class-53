@@ -48,5 +48,9 @@ body {
 }
 
 article {
-  padding-top: 70px;
+  padding-top: 100px;
+}
+
+.admin-bar .fixed {
+  margin-top: 30px;
 }

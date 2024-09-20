@@ -7,16 +7,16 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <?php wp_head(); ?>
     </head>
-    <body>
+    <body <?php body_class(); ?>>
 
         <div class="header-area">
             <div class="main-menu">
                 <?php 
-                    // wp_nav_menu(array(
-                    //     'theme_location' => 'main-menu'
-                    // ));
+                    wp_nav_menu(array(
+                        'theme_location' => 'main-menu'
+                    ));
                 ?>
-                <ul>
+                <!-- <ul>
                     <?php
 
                     $something = new WP_Query(array(
@@ -29,7 +29,7 @@
                     while( $something->have_posts() ) : $something->the_post(); ?>
                         <li><a href="#<?php echo $post->post_name; ?>"><?php the_title(); ?></a></li>
                     <?php endwhile; ?>
-                </ul>
+                </ul> -->
 
             </div>
         </div>
