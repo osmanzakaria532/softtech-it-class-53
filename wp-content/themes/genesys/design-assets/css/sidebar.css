@@ -1,0 +1,59 @@
+/* line 2, ../../../../xampp/htdocs/genesys/wp-content/themes/genesys/design-assets/scss/sidebar.scss */
+.widget-area {
+  padding: 15px;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+/* line 6, ../../../../xampp/htdocs/genesys/wp-content/themes/genesys/design-assets/scss/sidebar.scss */
+.widget-area ul {
+  list-style: none;
+}
+
+/* line 9, ../../../../xampp/htdocs/genesys/wp-content/themes/genesys/design-assets/scss/sidebar.scss */
+.widget-area li {
+  padding: 8px 0px;
+  border-bottom: solid 1px #eeeeee;
+}
+
+/* line 13, ../../../../xampp/htdocs/genesys/wp-content/themes/genesys/design-assets/scss/sidebar.scss */
+.widget-area a {
+  color: #636B61 !important;
+}
+
+/* line 15, ../../../../xampp/htdocs/genesys/wp-content/themes/genesys/design-assets/scss/sidebar.scss */
+.widget-area a:hover {
+  text-decoration: none;
+  color: #E9B44C !important;
+}
+
+/* line 25, ../../../../xampp/htdocs/genesys/wp-content/themes/genesys/design-assets/scss/sidebar.scss */
+#secondary ul {
+  margin-left: 20px;
+  padding-left: 0;
+}
+
+/* line 28, ../../../../xampp/htdocs/genesys/wp-content/themes/genesys/design-assets/scss/sidebar.scss */
+#secondary ul li {
+  padding: 5px 0;
+}
+
+/* line 32, ../../../../xampp/htdocs/genesys/wp-content/themes/genesys/design-assets/scss/sidebar.scss */
+#secondary .widget-title {
+  border-bottom: solid 1px #32021F;
+  box-shadow: 0 1px black;
+  padding-bottom: 10px;
+}
+
+/* line 40, ../../../../xampp/htdocs/genesys/wp-content/themes/genesys/design-assets/scss/sidebar.scss */
+h2 {
+  font-size: 1.5rem;
+}
+
+/* line 45, ../../../../xampp/htdocs/genesys/wp-content/themes/genesys/design-assets/scss/sidebar.scss */
+.widget {
+  background: #ffff;
+  padding: 1rem;
+}
+
+/*# sourceMappingURL=sidebar.css.map */

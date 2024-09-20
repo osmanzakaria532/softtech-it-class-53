@@ -1,0 +1,57 @@
+
+.widget-area {  
+	margin-bottom: 1rem;
+	ul{
+		list-style: none;
+	}
+	li{
+		padding: 8px 0px;
+	}
+	a{
+		color: $sidebar-links!important;
+		&:hover{
+			text-decoration: none;
+			 color:$links!important;
+		}
+		
+	}
+	
+}
+
+#secondary {
+	h2{
+		font-weight: 600;
+	}
+
+	ul {
+		margin-left: 20px;
+		padding-left: 0;
+		li {
+			padding: 5px 0;
+		}
+	}
+	.widget-title {
+		border-bottom: solid 1px #696969;
+		box-shadow: 0 1px darken(#32021F, 12%);
+		padding-bottom: 10px;
+		
+	}
+}
+//    adding styles to sidebar headings 
+h2{
+	font-size: 1.5rem;
+}
+ 
+//  styling inner side of the sidebar
+ #secondary .widget{
+	padding-left: 1rem;
+	border-radius: 1%;
+}
+
+.wp-block-archives a {
+	color:$sidebar-links !important;
+}
+
+.wp-block-search__label{
+	color: $sidebar-links;
+}

@@ -1,0 +1,114 @@
+// adding style scroll to top button 
+.scroll-to-top {
+    position: sticky;
+    top: 88vh;
+    cursor: pointer;
+    width: 40px;
+    height: auto;
+    margin-left: 2rem;
+    z-index: 9999;
+}
+ 
+
+
+ // styling footer area
+
+.copyright-area{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:.5rem;
+    p{
+        color: #fff;
+    }
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-menu-right{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0px;
+  
+    ul{
+        display: flex;
+        list-style: none; 
+    }
+        .current-menu-item{
+            border: none !important;
+    }
+    a{
+        padding: .5rem .75rem;
+        color: #fff;
+        font-size: .75rem;
+        &:hover{
+            text-decoration: none;
+            color: #c2c2c2;
+            border: none;
+        }
+    }
+}
+
+.copy-right{
+    padding: .5rem;
+    margin: .5rem;
+}
+
+.mr-2{
+   color:$secondory-color;
+   text-align: center;
+   text-transform: capitalize;
+   margin-bottom: 1rem;
+   a{
+    color: #fff;
+   }
+   }
+   
+   .entry-content p {
+    color: $secondory-color;
+   }
+
+
+   #scl{
+    vertical-align: middle;
+    border-style: none;
+    background: #ffffff;
+    border: solid 2px #712af9;
+    border-radius: 50%;
+    z-index: 999;
+    padding: 0.5rem;
+    width: 2rem;
+    height: auto;
+    position: relative;
+    bottom: 4.4rem;
+    left: 1rem;
+}
+
+#menu-footer-menu{
+    list-style: none;
+}
+
+ #footer-widgets{
+    h2{
+        font-weight: 600;
+    }
+    .col-md-4{
+        padding: 1rem;     
+    }
+ }
+   
+//  adding margin when on large grid images in smaller screens
+@media only screen and(max-width:775px){
+    #scl {
+       bottom: 1.4rem;
+    }
+}
+
+.footer-content{
+   background: #712af9;
+   margin-top: -32px;
+}

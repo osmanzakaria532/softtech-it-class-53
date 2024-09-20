@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "hamburger.css",
+	"sources": [
+		"../scss/hamburger.scss"
+	],
+	"sourcesContent": [
+		"\r\n// .sidr{\r\n//     transition: left 0.2s ease 0s;\r\n//     left: 0px;\r\n//     background: black;\r\n//     color: white;\r\n//     top: 0;\r\n//     position: fixed;\r\n//     width: 100%;\r\n//     height: 100%;\r\n//     }"
+	],
+	"names": [],
+	"mappings": ""
+}

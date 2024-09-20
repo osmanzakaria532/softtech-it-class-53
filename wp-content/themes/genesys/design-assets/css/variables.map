@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "variables.css",
+	"sources": [
+		"../scss/variables.scss"
+	],
+	"sourcesContent": [
+		"$menu-color:#712af9;\r\n$headings:#435058;\r\n$mini-links:#343E3D;\r\n$sidebar-links:#383838;\r\n$links:rgb(75, 75, 75);\r\n$background:#100a24;\r\n$utility-color:#424242;\r\n$secondory-color:#100101;\r\n\r\n\r\n\r\n"
+	],
+	"names": [],
+	"mappings": ""
+}

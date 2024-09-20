@@ -1,0 +1,124 @@
+/* line 3, ../../../../xampp/htdocs/blogzone/wp-content/themes/genesys/design-assets/scss/hamburger-menu.scss */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter';
+}
+
+/* line 9, ../../../../xampp/htdocs/blogzone/wp-content/themes/genesys/design-assets/scss/hamburger-menu.scss */
+ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* line 15, ../../../../xampp/htdocs/blogzone/wp-content/themes/genesys/design-assets/scss/hamburger-menu.scss */
+button {
+  background: none;
+  border: none;
+  appearance: none;
+  outline: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+/* line 24, ../../../../xampp/htdocs/blogzone/wp-content/themes/genesys/design-assets/scss/hamburger-menu.scss */
+body {
+  background: #F9FAFB;
+}
+
+/* line 29, ../../../../xampp/htdocs/blogzone/wp-content/themes/genesys/design-assets/scss/hamburger-menu.scss */
+.header {
+  background: #4F46E5;
+  display: flex;
+  align-items: center;
+  height: 80px;
+  padding: 10px 20px;
+  color: #ffffff;
+}
+
+/* line 38, ../../../../xampp/htdocs/blogzone/wp-content/themes/genesys/design-assets/scss/hamburger-menu.scss */
+.nav {
+  background: #4B5563;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 300px;
+  height: 100vh;
+  transition: transform 0.7s, opacity 1s;
+  transform: translateX(100%);
+  opacity: 0;
+  color: #ffffff;
+}
+
+/* line 51, ../../../../xampp/htdocs/blogzone/wp-content/themes/genesys/design-assets/scss/hamburger-menu.scss */
+.nav.show {
+  transform: translateX(0%);
+  opacity: 1;
+}
+
+/* line 56, ../../../../xampp/htdocs/blogzone/wp-content/themes/genesys/design-assets/scss/hamburger-menu.scss */
+.list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: inherit;
+}
+
+/* line 64, ../../../../xampp/htdocs/blogzone/wp-content/themes/genesys/design-assets/scss/hamburger-menu.scss */
+.list li {
+  margin: 1.5rem auto;
+  font-size: 1.25rem;
+}
+
+/* line 69, ../../../../xampp/htdocs/blogzone/wp-content/themes/genesys/design-assets/scss/hamburger-menu.scss */
+.hamburger {
+  position: relative;
+  margin-left: auto;
+  width: 45px;
+  height: 35px;
+  z-index: 1;
+}
+
+/* line 77, ../../../../xampp/htdocs/blogzone/wp-content/themes/genesys/design-assets/scss/hamburger-menu.scss */
+.hamburger span {
+  position: absolute;
+  left: 0;
+  background: #ffffff;
+  width: inherit;
+  height: 5px;
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+/* line 86, ../../../../xampp/htdocs/blogzone/wp-content/themes/genesys/design-assets/scss/hamburger-menu.scss */
+.top-line {
+  top: 0px;
+}
+
+/* line 90, ../../../../xampp/htdocs/blogzone/wp-content/themes/genesys/design-assets/scss/hamburger-menu.scss */
+.center-line {
+  top: 15px;
+}
+
+/* line 94, ../../../../xampp/htdocs/blogzone/wp-content/themes/genesys/design-assets/scss/hamburger-menu.scss */
+.bottom-line {
+  bottom: 0px;
+}
+
+/* line 98, ../../../../xampp/htdocs/blogzone/wp-content/themes/genesys/design-assets/scss/hamburger-menu.scss */
+.top-line.active {
+  transform: translateY(15px) rotate(45deg);
+}
+
+/* line 102, ../../../../xampp/htdocs/blogzone/wp-content/themes/genesys/design-assets/scss/hamburger-menu.scss */
+.center-line.active {
+  opacity: 0;
+}
+
+/* line 106, ../../../../xampp/htdocs/blogzone/wp-content/themes/genesys/design-assets/scss/hamburger-menu.scss */
+.bottom-line.active {
+  transform: translateY(-15px) rotate(-45deg);
+}
+
+/*# sourceMappingURL=hamburger-menu.css.map */

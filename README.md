@@ -21,3 +21,8 @@
 ---
 
 ### Child Theme
+
+theme name
+cherry framework
+genesis framework
+thesis framework

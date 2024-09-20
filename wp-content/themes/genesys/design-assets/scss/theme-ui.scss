@@ -1,0 +1,348 @@
+@import'variables';
+@import'header';
+@import'sidebar';
+@import'single-posts';
+@import'mobile-menu';
+@import'footer';
+
+//styling latest posts
+
+.latest-posts{
+    padding: 5px 16px;
+    font-size: 1.2rem;
+    color: #fff;
+    display: inline-block;
+    font-weight: 700;
+    margin: auto;
+    position: relative;
+    top: -18px; 
+}
+
+.l-posts{
+    color: $menu-color;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-family: 'Changa', sans-serif;
+}
+.w-posts{
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-left: .5rem;
+    color: #000;
+    font-family: 'Changa', sans-serif;
+
+}
+
+
+.col-md-6 figure a img{
+    height:26rem;
+    max-width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    filter: contrast(115%);
+    &:hover{
+        filter: brightness(80%);
+    }
+}
+
+
+.info{
+    display: grid;
+    justify-content: center;
+    margin: -89px 15px 0;
+    position: relative;
+    z-index: 9999;
+    background: rgba(0,0,0,.5);
+    h3{
+        margin-top: .4rem;
+    }
+    
+     .details{
+        display: inline-block;
+        text-align: center;
+        font-size:.6rem;
+     }
+
+       a{
+        color:#fff;
+        font-weight: 700;
+        &:hover{
+            color: rgb(255, 255, 255);
+        }
+    } 
+}
+    
+// adding styles  to featured post grid info
+.info h3 a {
+    color: #fff;
+    font-size: 1rem;
+    padding: 3px 5px;
+    &:hover{
+        color: $secondory-color;
+    }
+}
+//  adding styles to .entry-title
+
+h2.entry-title a{
+    font-weight: 600;
+    &:hover{
+     color: $links;
+    }
+}
+
+
+//adding styles to paragraphs 
+p{
+    line-height: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+//  adding styles to post titles
+    a.wp-block-latest-posts__post-title {
+        color: $secondory-color;
+        text-decoration: none;
+    }
+//   adding styles to latest comments author
+    a.wp-block-latest-comments__comment-author {
+        color: $links;
+    }
+    .wp-block-latest-posts__post-title{
+    line-height: 1rem;
+    color: $links;
+
+    }
+    // latest comments link
+    .wp-block-latest-comments__comment-link{
+        color:$links;
+    }
+
+    // adding styles to .comments-link
+    .comments-link a{
+    padding: 1rem 0rem; 
+    margin-right: 7px;
+    color: $links;
+    }
+
+    //  adding styles to submit button
+    input#submit{
+    background-color:$background;
+    border: solid 2px #fa26ca !important;
+    padding: 1rem;
+    color: #ffffff !important;
+    border:solid 2px $sidebar-links ;
+        &:hover{
+            background:#fa26ca ;
+            border: solid 2px #000 !important;
+            color: #fff!important;
+        }
+    }
+  
+    //  adding styles to submit button
+    button.wp-block-search__button{
+        background-color:$background;
+        border: solid 2px #fa26ca !important;
+        padding: 1rem;
+        color: #ffffff !important;
+        border:solid 2px $sidebar-links ;
+            &:hover{
+                background:#fa26ca ;
+                border: solid 2px #000 !important;
+                color: #fff!important;
+            }
+    }
+ 
+  
+//  underlining links 
+.entry-content{
+      a{
+        text-decoration: underline; 
+      }
+ }
+
+ .entry-title a{
+    &:hover{
+        color: $utility-color !important;
+        text-decoration: none;
+    }
+ }
+
+//  adding margins to content
+h3{
+    font-size: 1.2rem;
+    text-align: center;
+    
+    a{
+        color:#fff;
+        font-size: 700;
+        &:hover{
+            color:$utility-color;
+            text-decoration: none;
+        }
+    }   
+}
+
+//   adding styles to featured post
+p.category{
+    position: absolute;
+    z-index: 1000;
+    font-size: 10px;
+    top: 2rem;
+    left: 2rem;
+    padding: .3rem;
+    a{
+        background:#e5e5e5;
+        color:#000;
+        padding: 6px 10px;
+        filter: grayscale(20%);
+    }
+}
+    
+//  default posts images
+.post-images{
+    padding: .5rem 1.5rem;
+   img{
+       height:20rem;
+       object-fit: cover;
+    }
+    .entry-header{
+        margin-bottom: -1.3rem;
+    }
+}
+
+// main query content 
+.home-page-content {
+    box-shadow: 0px 12px 18px -6px rgba(34, 56, 101, 0.04);
+    border-top: none; 
+    padding: 1rem 0rem;
+    height: auto;
+    width: 100%;
+    max-width:100%;
+    z-index: 9999;
+}
+
+  .posts-navigation{
+    margin: 0 0 1.5em;
+    position: relative;
+    top: 1rem;
+    left: 10%;
+}
+
+
+img#time{
+    background: white;
+    width: 16px;
+    height: auto;
+    border-radius: 50%;
+    padding: 1px;
+    position: relative;
+    top: -1px;
+    margin-right: 3px;
+}
+
+
+img#author{
+    padding: 1px;
+    width: 16px;
+    height: auto;
+    margin-left: -19.7rem;
+    border-radius: 50%;
+    margin: 0px 3px;
+    background: #fff;
+    height: auto;
+    margin-left: -4.7rem;
+    border-radius: 50%;
+    background: #fff;
+   
+}
+
+.col-md-4{
+    time.entry-date.published {
+        position: relative;
+        right: 4.5rem;
+        font-size: .75rem;
+    }
+}
+
+.col-md-4{
+    .posted-on{
+        color: transparent;
+    }
+}
+
+
+
+.nav-next{
+    margin-left: 1rem;
+    font-weight: 600;
+}
+
+td{
+    color: $secondory-color;
+}
+
+cite{
+    color: $secondory-color !important;
+}
+
+caption{
+    color: $secondory-color !important;
+}
+
+.fixed{
+        position: fixed !important;
+}
+.entry-content li{
+    color: $secondory-color;
+}
+
+// media queries
+
+@media only screen and(max-width:968px){
+    .col-md-6 figure a img {
+        height: auto;
+    }
+}
+  @media only screen and(max-width:775px){
+    h2.entry-title {
+        margin-top: 1rem;
+    }
+}
+//  adding margin when on large grid images in smaller screens
+  @media only screen and(max-width:775px){
+    .col-md-6 figure a img {
+        margin-top: 2rem;
+    }
+}
+
+@media only screen and(min-width: 1400px){
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1320px;
+   }
+}
+
+@media only screen and(max-width: 968px){
+    .post-images img {
+        height: auto;
+   }
+}
+
+
+@media only screen and(max-width: 968px){
+    img#author {
+        margin-left: -4.3rem;
+   }
+}
+@media screen and (min-width: 768px) and (max-width:1004px) {
+    img#author {
+        margin-left: 0px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width:1004px) {
+    .col-md-4 time.entry-date.published  {
+        position: static;
+        margin-left: -4.4rem;
+  }
+}
+
+

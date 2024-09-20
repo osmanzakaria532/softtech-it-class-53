@@ -1,0 +1,136 @@
+/* line 1, ../../../../xampp/htdocs/gamely/wp-content/themes/genesys/design-assets/scss/social-header.scss */
+.social-menu-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 2rem;
+}
+
+/* line 12, ../../../../xampp/htdocs/gamely/wp-content/themes/genesys/design-assets/scss/social-header.scss */
+.menu-social-menu-container #social-menu ul {
+  display: flex;
+  list-style: none;
+}
+
+/* line 16, ../../../../xampp/htdocs/gamely/wp-content/themes/genesys/design-assets/scss/social-header.scss */
+.menu-social-menu-container #social-menu a {
+  content: "";
+  position: relative;
+  color: transparent;
+  display: inline-block;
+  width: 32px;
+  overflow: hidden;
+}
+
+/* line 25, ../../../../xampp/htdocs/gamely/wp-content/themes/genesys/design-assets/scss/social-header.scss */
+.menu-social-menu-container #social-menu a:after {
+  text-indent: 0;
+  display: block;
+  float: left;
+  font-family: "Font Awesome 5 Brands";
+  font-weight: 400;
+  visibility: visible;
+  font-size: 18px;
+  position: absolute;
+  top: 0;
+}
+
+/* line 37, ../../../../xampp/htdocs/gamely/wp-content/themes/genesys/design-assets/scss/social-header.scss */
+.menu-social-menu-container #social-menu a[href*="twitter.com"]:after {
+  content: "\f099";
+  color: #00aced;
+}
+
+/* line 44, ../../../../xampp/htdocs/gamely/wp-content/themes/genesys/design-assets/scss/social-header.scss */
+.menu-social-menu-container #social-menu a[href*="github.com"]:after {
+  content: "\f09b";
+  color: black;
+}
+
+/* line 51, ../../../../xampp/htdocs/gamely/wp-content/themes/genesys/design-assets/scss/social-header.scss */
+.menu-social-menu-container #social-menu a[href*="linkedin.com"]:after {
+  content: "\f0e1";
+  color: #007bb6;
+}
+
+/* line 58, ../../../../xampp/htdocs/gamely/wp-content/themes/genesys/design-assets/scss/social-header.scss */
+.menu-social-menu-container #social-menu a[href*="instagram.com"]:after {
+  content: "\f16d";
+  color: #517fa4;
+}
+
+/* line 66, ../../../../xampp/htdocs/gamely/wp-content/themes/genesys/design-assets/scss/social-header.scss */
+.menu-social-menu-container #social-menu a[href*="facebook.com"]:after {
+  content: "\f39e";
+  color: #517fa4;
+}
+
+/* line 73, ../../../../xampp/htdocs/gamely/wp-content/themes/genesys/design-assets/scss/social-header.scss */
+.menu-social-menu-container #social-menu a[href*="pinterest.com"]:after {
+  content: "\f0d3";
+  color: #517fa4;
+}
+
+/* line 79, ../../../../xampp/htdocs/gamely/wp-content/themes/genesys/design-assets/scss/social-header.scss */
+.menu-social-menu-container #social-menu a[href*="tumbler.com"]:after {
+  content: "\f174";
+  color: #517fa4;
+}
+
+/* line 85, ../../../../xampp/htdocs/gamely/wp-content/themes/genesys/design-assets/scss/social-header.scss */
+.menu-social-menu-container #social-menu a[href*="wordpress.com"]:after {
+  content: "\f39e";
+  color: #517fa4;
+}
+
+/* line 92, ../../../../xampp/htdocs/gamely/wp-content/themes/genesys/design-assets/scss/social-header.scss */
+.menu-social-menu-container #social-menu a[href*="wordpress.org"]:after {
+  content: "\f19a";
+  color: #517fa4;
+}
+
+/* line 98, ../../../../xampp/htdocs/gamely/wp-content/themes/genesys/design-assets/scss/social-header.scss */
+.menu-social-menu-container #social-menu a[href*="youtube.com"]:after {
+  content: "\f431";
+  color: #517fa4;
+}
+
+/* line 104, ../../../../xampp/htdocs/gamely/wp-content/themes/genesys/design-assets/scss/social-header.scss */
+.menu-social-menu-container #social-menu a[href*="wikipedia.com"]:after {
+  content: "\f266";
+  color: #517fa4;
+}
+
+/* line 112, ../../../../xampp/htdocs/gamely/wp-content/themes/genesys/design-assets/scss/social-header.scss */
+.menu-social-menu-container #social-menu a[href$="/feed/"]:after {
+  text-indent: 0;
+  display: block;
+  float: left;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f09e";
+  color: #ff9900;
+}
+
+/* line 126, ../../../../xampp/htdocs/gamely/wp-content/themes/genesys/design-assets/scss/social-header.scss */
+.menu-social-menu-container #social-menu a:after {
+  color: #ffffff !important;
+  padding: 3px 9px;
+  border-radius: 60%;
+  position: relative;
+}
+
+@media only screen and (max-width: 992px) {
+  /* line 135, ../../../../xampp/htdocs/gamely/wp-content/themes/genesys/design-assets/scss/social-header.scss */
+  .search-form {
+    display: none;
+  }
+}
+
+/* line 140, ../../../../xampp/htdocs/gamely/wp-content/themes/genesys/design-assets/scss/social-header.scss */
+ul#social-menu {
+  display: flex;
+  list-style: none;
+}
+
+/*# sourceMappingURL=social-header.css.map */

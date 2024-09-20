@@ -1,0 +1,167 @@
+  //  adding styles for whole theme
+
+  *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'League Spartan', sans-serif;
+    scroll-behavior: smooth;
+    
+    h1,h2,h3,h4,h5,h6{
+      font-family: 'Changa', sans-serif;
+       color: #435058;
+    }
+    
+    li{
+      color: $secondory-color;
+    }
+    a{
+      color: $sidebar-links;
+      &:hover{
+        color: $mini-links;
+      }
+    }
+
+    div{
+      color: $secondory-color;
+  }
+    
+}
+
+// adding styles to topbar menu
+.top-bar{
+  background: #712af9;
+}
+  ul#topbar-menu{
+    
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    margin: 0px;
+    a{
+      padding:.5rem .75rem;
+      color: #fff !important;
+      font-size: 75%;
+      text-decoration: none;
+      border: none;
+    }
+   }
+  
+
+// styling heading area
+header#masthead{
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  background: $background;
+    margin-bottom: 3rem;
+    padding: 1rem;
+    .site-branding{
+       display: flex;
+       justify-content: space-between;
+        align-items: center;
+       
+        .site-title a{
+          color:#fff;
+            font-size: 1.75rem;
+            text-transform: uppercase;
+            margin-right: 7px;
+            &:hover{
+                text-decoration: none;
+            }
+        }
+        img.custom-logo{
+            object-fit: contain;
+            width: 150px;
+            height: auto;
+            aspect-ratio: 3/2;
+        }
+    }
+
+
+    // site description styling
+    p.site-description{
+     display: none;
+    }
+   
+    //  adding styles to main menu
+    .menu{ 
+     
+        a{
+            padding: .75rem 1rem;
+            color: #fff;;
+            text-transform: uppercase;
+            font-size: .8rem;
+            position: relative;
+            &:hover{
+                text-decoration: none;
+                border-bottom: solid 2px #fa26ca;
+                transition: all ease-out .75s;
+                
+            }
+        }
+    }
+  }
+     
+  
+    // styling current menu item
+    .current-menu-item a{
+      color: #fa26ca !important;
+      border-bottom: solid 2px #fa26ca;
+    }
+
+//    adding dropdown symbol to the menu
+
+.menu-item-has-children:after{
+  content: '⮟';
+  color: #fff;
+  top: 45%;
+  right: 1%;
+  margin-top: -7px;
+  font-size: 12px;
+  position: absolute;
+}
+
+//   adding styles to sub menu
+  .main-navigation ul ul{
+    display: inline-block;
+    border-radius: 12px;
+    a{
+        background-color:rgb(234, 234, 234);
+        color: #000 !important;
+        font-size: 12px;
+        padding: .3rem .5rem !important;
+        &:hover{
+            background:darken(rgb(225, 225, 225), 4%) !important;
+        }
+    }
+
+  }
+
+//   adding styles to menu .menu-toggle
+  .menu-toggle{
+    border: none;
+    background: none;
+   img{
+    width: 2rem;
+    height: auto;
+    position: absolute;
+    top: 7rem;
+    left: 2rem;
+    margin-top: 0.25rem;
+ 
+   }
+}
+
+@media screen and (max-width: 768px){
+  img.custom-logo  {
+      margin-left: 22vw;
+}
+}
+
+
+@media screen and (min-width: 596px){
+  .menu-toggle {
+      display: none;
+}
+}
+
+

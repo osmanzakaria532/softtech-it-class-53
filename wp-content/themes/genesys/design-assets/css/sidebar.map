@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "sidebar.css",
+	"sources": [
+		"../scss/sidebar.scss"
+	],
+	"sourcesContent": [
+		"\r\n.widget-area {  \r\n\tpadding: 15px;\r\n\tmargin-bottom: 1rem;\r\n\tmargin-top: 1rem;\r\n\tul{\r\n\t\tlist-style: none;\r\n\t}\r\n\tli{\r\n\t\tpadding: 8px 0px;\r\n\t\tborder-bottom: solid 1px rgb(238, 238, 238);\r\n\t}\r\n\ta{\r\n\t\tcolor: #636B61!important;\r\n\t\t&:hover{\r\n\t\t\ttext-decoration: none;\r\n\t\t\tcolor: #E9B44C !important;\r\n\t\t}\r\n\t\t\r\n\t}\r\n\t\r\n}\r\n\r\n#secondary {\r\n\tul {\r\n\t\tmargin-left: 20px;\r\n\t\tpadding-left: 0;\r\n\t\tli {\r\n\t\t\tpadding: 5px 0;\r\n\t\t}\r\n\t}\r\n\t.widget-title {\r\n\t\tborder-bottom: solid 1px #32021F;\r\n\t\tbox-shadow: 0 1px darken(#32021F, 12%);\r\n\t\tpadding-bottom: 10px;\r\n\t\t\r\n\t}\r\n}\r\n//    adding styles to sidebar headings \r\nh2{\r\n\tfont-size: 1.5rem;\r\n}\r\n \r\n//  styling inner side of the sidebar\r\n.widget{\r\n\tbackground:#ffff;\r\n\tpadding: 1rem;\r\n}"
+	],
+	"names": [],
+	"mappings": ";AACA,AAAA,YAAY,CAAC;EACZ,OAAO,EAAE,IAAI;EACb,aAAa,EAAE,IAAI;EACnB,UAAU,EAAE,IAAI;CAiBhB;;;AApBD,AAIC,YAJW,CAIX,EAAE,CAAA;EACD,UAAU,EAAE,IAAI;CAChB;;;AANF,AAOC,YAPW,CAOX,EAAE,CAAA;EACD,OAAO,EAAE,OAAO;EAChB,aAAa,EAAE,KAAK,CAAC,GAAG,CAAC,OAAkB;CAC3C;;;AAVF,AAWC,YAXW,CAWX,CAAC,CAAA;EACA,KAAK,EAAE,OAAO,CAAA,UAAU;CAMxB;;;AAlBF,AAaE,YAbU,CAWX,CAAC,AAEC,MAAM,CAAA;EACN,eAAe,EAAE,IAAI;EACrB,KAAK,EAAE,kBAAkB;CACzB;;;AAMH,AACC,UADS,CACT,EAAE,CAAC;EACF,WAAW,EAAE,IAAI;EACjB,YAAY,EAAE,CAAC;CAIf;;;AAPF,AAIE,UAJQ,CACT,EAAE,CAGD,EAAE,CAAC;EACF,OAAO,EAAE,KAAK;CACd;;;AANH,AAQC,UARS,CAQT,aAAa,CAAC;EACb,aAAa,EAAE,iBAAiB;EAChC,UAAU,EAAE,CAAC,CAAC,GAAG,CAAC,KAAoB;EACtC,cAAc,EAAE,IAAI;CAEpB;;;AAGF,AAAA,EAAE,CAAA;EACD,SAAS,EAAE,MAAM;CACjB;;;AAGD,AAAA,OAAO,CAAA;EACN,UAAU,EAAC,KAAK;EAChB,OAAO,EAAE,IAAI;CACb"
+}
