@@ -17,3 +17,7 @@
 - 1st way: Menu content will be repeated on all pages using a single page template.
 - 2nd way: Same as the 1st way, but instead of using the original menu, a custom menu with the #about-us shortcode will be used.
 - 3rd way: Similar to the 2nd way, but instead of repeating page content, sections will be created using shortcodes and added to the visual composer.
+
+---
+
+### Child Theme
